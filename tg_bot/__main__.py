@@ -144,10 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text="🔧 Support Group", url="https://t.me/Music_and_chats"), InlineKeyboardButton(text=" 🍭Dev", url="https://t.me/Ok_bie_bot")],
                    [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)), InlineKeyboardButton(text="Music Group", url="https://t.me/Music_and_chats")]
 
-    else:
-        update.effective_message.reply_text("Still Working")
-
-
+ 
 # for test purposes
 def error_callback(bot, update, error):
     try:
