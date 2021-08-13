@@ -141,8 +141,8 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text=" 🚀Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),
-                     [InlineKeyboardButton(text="🔧 Support Group", url="https://t.me/Music_and_chats"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/Music_and_chats")],
-                   [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)), InlineKeyboardButton(text="Music Group", url="https://t.me/Music_and_chats"]]))
+                     [InlineKeyboardButton(text="🔧 Support Group", url="https://t.me/Music_and_chats"), InlineKeyboardButton(text=" 🍭Dev", url="https://t.me/Ok_bie_bot")],
+                   [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)), InlineKeyboardButton(text="Music Group", url="https://t.me/Music_and_chats")]
 
     else:
         update.effective_message.reply_text("Still Working")
