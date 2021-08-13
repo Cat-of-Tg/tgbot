@@ -1,5 +1,5 @@
 {
-  "name": "Kochubot",
+  "name": "LIZA",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "logo": "https://telegra.ph/file/1925c7a2f601539ccde7a.png",
   "keywords": [
@@ -23,7 +23,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "20516707"
+      "value": "1776844747"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
