@@ -17,7 +17,7 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """
+PM_START_TEXT = """(https://telegra.ph/file/8bab8e2b94fa3234927b5.jpg)
 
 Hola {}, I Am  {}! Managed By  [Master ](tg://user?id={}) .I'm here to help you manage your group with easily
 U can see my features by hitting /help
@@ -138,7 +138,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/{}?startgroup=true".format(bot.username)),
                      [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/TeamLadz_Bothub"), InlineKeyboardButton(text=" ᴅᴇᴠ", url="https://t.me/Ok_bie_bot")],
-                   [InlineKeyboardButton(text=" ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)), InlineKeyboardButton(text= ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url="https://t.me/Music_and_chats")]
+                   [InlineKeyboardButton(text=" ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)), InlineKeyboardButton(text= "ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url="https://t.me/Music_and_chats")]
 
  
         else:
